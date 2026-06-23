@@ -1,0 +1,66 @@
+.page {
+  display: grid;
+  gap: 2rem;
+  max-width: 42rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.location {
+  margin: 0.25rem 0 0;
+  color: var(--text-muted);
+}
+
+.bio {
+  margin: 0;
+  line-height: 1.7;
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+
+.page h2 {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills li {
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+.avatar,
+.fallback {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--border);
+  background: var(--surface);
+}
+
+.lg {
+  width: 9rem;
+  height: 9rem;
+}
+
+.sm {
+  width: 3rem;
+  height: 3rem;
+}
+
+.fallback {
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: var(--accent-text);
+  background: var(--accent);
+}
