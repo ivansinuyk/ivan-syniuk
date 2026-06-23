@@ -58,3 +58,25 @@
 .alt a {
   color: var(--accent);
 }
+
+.success {
+  margin: 0;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  background: color-mix(in srgb, #22c55e 12%, var(--surface));
+  border: 1px solid color-mix(in srgb, #22c55e 35%, var(--border));
+  color: var(--text);
+}
+
+.error {
+  margin: 0;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  background: color-mix(in srgb, #ef4444 12%, var(--surface));
+  border: 1px solid color-mix(in srgb, #ef4444 35%, var(--border));
+  color: var(--text);
+}
+
+.error a {
+  color: var(--accent);
+}
