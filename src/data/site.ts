@@ -1,5 +1,5 @@
 // Career start year for dynamic experience calculation
-const CAREER_START_YEAR = 2018;
+const CAREER_START_YEAR = 2019;
 const yearsOfExperience = new Date().getFullYear() - CAREER_START_YEAR;
 
 export const site = {

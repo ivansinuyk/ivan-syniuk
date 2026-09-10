@@ -300,4 +300,4 @@ If you are building something similar—AR overlays, dual-camera effects, or GPU
 
 ---
 
-*Ivan Syniuk — React Native, 8+ years. This post is based on multi-cam helmet overlay work in the otoqi driver mobile app.*
+*Ivan Syniuk — React Native, 7+ years. This post is based on multi-cam helmet overlay work in the otoqi driver mobile app.*
